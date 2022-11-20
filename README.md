@@ -24,8 +24,8 @@ You can use the app from terminal:
 # Standalone
 encolor -r "def: red, \(|\): gray" sub "def main():"
 
-# With a pipe
-echo "def main():" | encolor -r "def: red, \(|\): gray" sub
+# With a pipe (use xargs)
+echo "def main():" | xargs -0 encolor -r "def: red, \(|\): gray" sub
 ```
 
 Or use the functions from within your Python code:
