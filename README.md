@@ -36,6 +36,6 @@ from encolor import gfx
 print(gfx.colorize_ansi("def main():", "red"))
 ```
 
-You can see syntax specification on the Github Wiki page.
+You can see syntax specification on the [Wiki](https://github.com/Froloket64/encolor/wiki/Syntax) page.
 
 For full documentation on module functionality, please refer to the source code (for now).
